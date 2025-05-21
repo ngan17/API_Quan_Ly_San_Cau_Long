@@ -1,0 +1,767 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "QLSCLAPI",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/DatSans/api/DatSans": {
+      "get": {
+        "tags": [
+          "DatSans"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DatSans": {
+      "get": {
+        "tags": [
+          "DatSans"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "DatSans"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DatSan"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DatSan"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DatSan"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DatSan"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DatSan"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DatSan"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/DatSans/{id}": {
+      "get": {
+        "tags": [
+          "DatSans"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DatSan"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DatSan"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DatSan"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "DatSans"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DatSan"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DatSan"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DatSan"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "DatSans"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/HoaDons": {
+      "get": {
+        "tags": [
+          "HoaDons"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/HoaDon"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/HoaDon"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/HoaDon"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "HoaDons"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HoaDon"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HoaDon"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/HoaDon"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/HoaDon"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HoaDon"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HoaDon"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/HoaDons/{id}": {
+      "get": {
+        "tags": [
+          "HoaDons"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/HoaDon"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HoaDon"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HoaDon"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "HoaDons"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HoaDon"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HoaDon"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/HoaDon"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "HoaDons"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/TaiKhoan/login": {
+      "post": {
+        "tags": [
+          "TaiKhoan"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "DatSan": {
+        "type": "object",
+        "properties": {
+          "maDatSan": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maKhachHang": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maSan": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ngayDat": {
+            "type": "string",
+            "format": "date"
+          },
+          "gioBatDau": {
+            "type": "string",
+            "format": "time"
+          },
+          "thoiLuong": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "trangThai": {
+            "type": "string",
+            "nullable": true
+          },
+          "hoaDon": {
+            "$ref": "#/components/schemas/HoaDon"
+          },
+          "huyDatSans": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HuyDatSan"
+            },
+            "nullable": true
+          },
+          "maKhachHangNavigation": {
+            "$ref": "#/components/schemas/KhachHang"
+          },
+          "maSanNavigation": {
+            "$ref": "#/components/schemas/San"
+          }
+        },
+        "additionalProperties": false
+      },
+      "HoaDon": {
+        "type": "object",
+        "properties": {
+          "maHoaDon": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maDatSan": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "soTien": {
+            "type": "number",
+            "format": "double"
+          },
+          "thoiGianThanhToan": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "phuongThucThanhToan": {
+            "type": "string",
+            "nullable": true
+          },
+          "trangThai": {
+            "type": "string",
+            "nullable": true
+          },
+          "maDatSanNavigation": {
+            "$ref": "#/components/schemas/DatSan"
+          }
+        },
+        "additionalProperties": false
+      },
+      "HuyDatSan": {
+        "type": "object",
+        "properties": {
+          "maHuy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maDatSan": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "thoiGianHuy": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "lyDo": {
+            "type": "string",
+            "nullable": true
+          },
+          "maDatSanNavigation": {
+            "$ref": "#/components/schemas/DatSan"
+          }
+        },
+        "additionalProperties": false
+      },
+      "KhachHang": {
+        "type": "object",
+        "properties": {
+          "maKhachHang": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenKhachHang": {
+            "type": "string",
+            "nullable": true
+          },
+          "soDienThoai": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "maNguoiDung": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "datSans": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DatSan"
+            },
+            "nullable": true
+          },
+          "maNguoiDungNavigation": {
+            "$ref": "#/components/schemas/NguoiDung"
+          },
+          "phanHois": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PhanHoi"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginRequest": {
+        "type": "object",
+        "properties": {
+          "tenDangNhap": {
+            "type": "string",
+            "nullable": true
+          },
+          "matKhau": {
+            "type": "string",
+            "nullable": true
+          },
+          "deviceToken": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "NguoiDung": {
+        "type": "object",
+        "properties": {
+          "maNguoiDung": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenDangNhap": {
+            "type": "string",
+            "nullable": true
+          },
+          "matKhauHash": {
+            "type": "string",
+            "nullable": true
+          },
+          "vaiTro": {
+            "type": "string",
+            "nullable": true
+          },
+          "khachHangs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/KhachHang"
+            },
+            "nullable": true
+          },
+          "nhatKyHoatDongs": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/NhatKyHoatDong"
+            },
+            "nullable": true
+          },
+          "phienDangNhaps": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PhienDangNhap"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "NhatKyHoatDong": {
+        "type": "object",
+        "properties": {
+          "maNhatKy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maNguoiDung": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "hanhDong": {
+            "type": "string",
+            "nullable": true
+          },
+          "bangTacDong": {
+            "type": "string",
+            "nullable": true
+          },
+          "maBanGhi": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "thoiGian": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "moTa": {
+            "type": "string",
+            "nullable": true
+          },
+          "maNguoiDungNavigation": {
+            "$ref": "#/components/schemas/NguoiDung"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PhanHoi": {
+        "type": "object",
+        "properties": {
+          "maPhanHoi": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maKhachHang": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maSan": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "noiDung": {
+            "type": "string",
+            "nullable": true
+          },
+          "danhGia": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "thoiGianGopY": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "maKhachHangNavigation": {
+            "$ref": "#/components/schemas/KhachHang"
+          },
+          "maSanNavigation": {
+            "$ref": "#/components/schemas/San"
+          }
+        },
+        "additionalProperties": false
+      },
+      "PhienDangNhap": {
+        "type": "object",
+        "properties": {
+          "maPhien": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maNguoiDung": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "token": {
+            "type": "string",
+            "nullable": true
+          },
+          "thoiGianTao": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "hetHan": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "diaChiIp": {
+            "type": "string",
+            "nullable": true
+          },
+          "thietBi": {
+            "type": "string",
+            "nullable": true
+          },
+          "maNguoiDungNavigation": {
+            "$ref": "#/components/schemas/NguoiDung"
+          }
+        },
+        "additionalProperties": false
+      },
+      "San": {
+        "type": "object",
+        "properties": {
+          "maSan": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenSan": {
+            "type": "string",
+            "nullable": true
+          },
+          "tinhTrang": {
+            "type": "string",
+            "nullable": true
+          },
+          "datSans": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DatSan"
+            },
+            "nullable": true
+          },
+          "phanHois": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PhanHoi"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
