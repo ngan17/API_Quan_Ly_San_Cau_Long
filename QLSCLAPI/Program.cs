@@ -1,36 +1,35 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using QLSCLAPI.Models;
 using System;
+
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<QuanLySanCauLongContext>(options =>
-    options.UseSqlServer(
-        builder.Configuration.GetConnectionString("DefaultConnection"),
-        sqlOptions => sqlOptions.EnableRetryOnFailure()
-    ));
+// Add services to the container.
+builder.Services.AddControllers()
+    .AddJsonOptions(x =>
+        x.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.IgnoreCycles);
 
-
-builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddDbContext<QuanLySanCauLongContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 var app = builder.Build();
 
-// in chuỗi kết nối để kiểm tra đúng chưa
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
 Console.WriteLine("▶️ Using connection string: " + builder.Configuration.GetConnectionString("DefaultConnection"));
 
-app.UseSwagger();
-app.UseSwaggerUI();
-
 app.UseAuthorization();
-
 app.MapControllers();
 
-var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+// ✅ Cấu hình cổng cho Railway
+var port = Environment.GetEnvironmentVariable("PORT") ?? "3000";
+app.Urls.Add($"http://*:{port}");
 
-builder.WebHost.ConfigureKestrel(serverOptions =>
-{
-    serverOptions.ListenAnyIP(Int32.Parse(port));
-});
-
-app.Run(); // KHÔNG truyền cổng cố định
+app.Run();

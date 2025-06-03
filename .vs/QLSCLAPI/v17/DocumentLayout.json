@@ -1,65 +1,97 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\LapTrinhDiDong\\QLSCLAPI\\",
+  "WorkspaceRootPath": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|e:\\laptrinhdidong\\qlsclapi\\qlsclapi\\models\\quanlysancaulongcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\models\\quanlysancaulongcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|e:\\laptrinhdidong\\qlsclapi\\qlsclapi\\models\\phiendangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\models\\phiendangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|e:\\laptrinhdidong\\qlsclapi\\qlsclapi\\controllers\\datsanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\controllers\\datsanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|e:\\laptrinhdidong\\qlsclapi\\qlsclapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|d:\\adroid\\qlsclapi\\qlsclapi\\qlsclapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|e:\\laptrinhdidong\\qlsclapi\\qlsclapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|d:\\adroid\\qlsclapi\\qlsclapi\\qlsclapi\\models\\quanlysancaulongcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\models\\quanlysancaulongcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|e:\\laptrinhdidong\\qlsclapi\\qlsclapi\\qlsclapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|d:\\adroid\\qlsclapi\\qlsclapi\\qlsclapi\\qlsclapi\\obj\\qlsclapi.csproj.entityframeworkcore.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\qlsclapi\\obj\\qlsclapi.csproj.entityframeworkcore.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|d:\\adroid\\qlsclapi\\qlsclapi\\qlsclapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|d:\\adroid\\qlsclapi\\qlsclapi\\qlsclapi\\qlsclapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\qlsclapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|e:\\laptrinhdidong\\qlsclapi\\qlsclapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|d:\\adroid\\qlsclapi\\qlsclapi\\qlsclapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|d:\\adroid\\qlsclapi\\qlsclapi\\qlsclapi\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|d:\\adroid\\qlsclapi\\qlsclapi\\qlsclapi\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|d:\\adroid\\qlsclapi\\qlsclapi\\qlsclapi\\controllers\\giaidauscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\controllers\\giaidauscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|d:\\adroid\\qlsclapi\\qlsclapi\\qlsclapi\\controllers\\doithidauscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\controllers\\doithidauscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|d:\\adroid\\qlsclapi\\qlsclapi\\qlsclapi\\controllers\\chitietgiaidauscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\controllers\\chitietgiaidauscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|d:\\adroid\\qlsclapi\\qlsclapi\\qlsclapi\\models\\datsandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\models\\datsandto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|d:\\adroid\\qlsclapi\\qlsclapi\\qlsclapi\\controllers\\datsanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\controllers\\datsanscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|d:\\adroid\\qlsclapi\\qlsclapi\\qlsclapi\\models\\phiendangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\models\\phiendangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|d:\\adroid\\qlsclapi\\qlsclapi\\qlsclapi\\models\\datsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\models\\datsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|d:\\adroid\\qlsclapi\\qlsclapi\\qlsclapi\\models\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\models\\hoadon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|d:\\adroid\\qlsclapi\\qlsclapi\\qlsclapi\\models\\huydatsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\models\\huydatsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|d:\\adroid\\qlsclapi\\qlsclapi\\qlsclapi\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|d:\\adroid\\qlsclapi\\qlsclapi\\qlsclapi\\models\\phanhoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\models\\phanhoi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|d:\\adroid\\qlsclapi\\qlsclapi\\qlsclapi\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|d:\\adroid\\qlsclapi\\qlsclapi\\qlsclapi\\models\\nhatkyhoatdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\models\\nhatkyhoatdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|e:\\laptrinhdidong\\qlsclapi\\qlsclapi\\controllers\\hoadonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|d:\\adroid\\qlsclapi\\qlsclapi\\qlsclapi\\controllers\\hoadonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\controllers\\hoadonscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|e:\\laptrinhdidong\\qlsclapi\\qlsclapi\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\controllers\\nguoidungscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|e:\\laptrinhdidong\\qlsclapi\\qlsclapi\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|e:\\laptrinhdidong\\qlsclapi\\qlsclapi\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\models\\khachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|e:\\laptrinhdidong\\qlsclapi\\qlsclapi\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\models\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|e:\\laptrinhdidong\\qlsclapi\\qlsclapi\\models\\datsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\models\\datsan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|e:\\laptrinhdidong\\qlsclapi\\qlsclapi\\models\\nhatkyhoatdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{866A593F-A412-45E5-A06B-39179C94D682}|QLSCLAPI\\QLSCLAPI.csproj|solutionrelative:qlsclapi\\models\\nhatkyhoatdong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -69,7 +101,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 19,
+          "SelectedChildIndex": 16,
           "Children": [
             {
               "$type": "Bookmark",
@@ -93,6 +125,14 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{be4d7042-ba3f-11d2-840e-00c04f9902c1}"
             },
             {
@@ -109,61 +149,216 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
+              "Title": "QLSCLAPI.csproj.EntityFrameworkCore.targets",
+              "DocumentMoniker": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\obj\\QLSCLAPI.csproj.EntityFrameworkCore.targets",
+              "RelativeDocumentMoniker": "QLSCLAPI\\QLSCLAPI\\obj\\QLSCLAPI.csproj.EntityFrameworkCore.targets",
+              "ToolTip": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\obj\\QLSCLAPI.csproj.EntityFrameworkCore.targets",
+              "RelativeToolTip": "QLSCLAPI\\QLSCLAPI\\obj\\QLSCLAPI.csproj.EntityFrameworkCore.targets",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-06-03T18:54:27.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "QLSCLAPI\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Properties\\launchSettings.json",
+              "RelativeToolTip": "QLSCLAPI\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-21T00:35:22.68Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "NguoiDungsController.cs",
+              "DocumentMoniker": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Controllers\\NguoiDungsController.cs",
+              "RelativeDocumentMoniker": "QLSCLAPI\\Controllers\\NguoiDungsController.cs",
+              "ToolTip": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Controllers\\NguoiDungsController.cs",
+              "RelativeToolTip": "QLSCLAPI\\Controllers\\NguoiDungsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T11:37:09.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuanLySanCauLongContext.cs",
+              "DocumentMoniker": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Models\\QuanLySanCauLongContext.cs",
+              "RelativeDocumentMoniker": "QLSCLAPI\\Models\\QuanLySanCauLongContext.cs",
+              "ToolTip": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Models\\QuanLySanCauLongContext.cs",
+              "RelativeToolTip": "QLSCLAPI\\Models\\QuanLySanCauLongContext.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAiwC0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:55:51.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "QLSCLAPI.http",
+              "DocumentMoniker": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI.http",
+              "RelativeDocumentMoniker": "QLSCLAPI\\QLSCLAPI.http",
+              "ToolTip": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI.http",
+              "RelativeToolTip": "QLSCLAPI\\QLSCLAPI.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-16T17:43:20.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Program.cs",
+              "RelativeDocumentMoniker": "QLSCLAPI\\Program.cs",
+              "ToolTip": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Program.cs",
+              "RelativeToolTip": "QLSCLAPI\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAADwvyMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:38:34.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ViewState": "AgIAAL4UAAAAAAAAAAAgwMkUAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-05-21T01:11:01.108Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T01:11:01.108Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "QLSCLAPI\\Properties\\launchSettings.json",
-              "ToolTip": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\Properties\\launchSettings.json",
-              "RelativeToolTip": "QLSCLAPI\\Properties\\launchSettings.json",
-              "ViewState": "AgIAABgAAAAAAAAAAAAwwCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-21T00:35:22.68Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "HoaDonsController.cs",
-              "DocumentMoniker": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\Controllers\\HoaDonsController.cs",
-              "RelativeDocumentMoniker": "QLSCLAPI\\Controllers\\HoaDonsController.cs",
-              "ToolTip": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\Controllers\\HoaDonsController.cs",
-              "RelativeToolTip": "QLSCLAPI\\Controllers\\HoaDonsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "PhanHoi.cs",
+              "DocumentMoniker": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Models\\PhanHoi.cs",
+              "RelativeDocumentMoniker": "QLSCLAPI\\Models\\PhanHoi.cs",
+              "ToolTip": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Models\\PhanHoi.cs",
+              "RelativeToolTip": "QLSCLAPI\\Models\\PhanHoi.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T00:21:50.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T01:51:38.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HuyDatSan.cs",
+              "DocumentMoniker": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Models\\HuyDatSan.cs",
+              "RelativeDocumentMoniker": "QLSCLAPI\\Models\\HuyDatSan.cs",
+              "ToolTip": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Models\\HuyDatSan.cs",
+              "RelativeToolTip": "QLSCLAPI\\Models\\HuyDatSan.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T01:51:47.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "HoaDon.cs",
+              "DocumentMoniker": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Models\\HoaDon.cs",
+              "RelativeDocumentMoniker": "QLSCLAPI\\Models\\HoaDon.cs",
+              "ToolTip": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Models\\HoaDon.cs",
+              "RelativeToolTip": "QLSCLAPI\\Models\\HoaDon.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA5wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T01:51:52.186Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "QLSCLAPI\\appsettings.json",
+              "ToolTip": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\appsettings.json",
+              "RelativeToolTip": "QLSCLAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-16T17:36:29.85Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "KhachHang.cs",
-              "DocumentMoniker": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\Models\\KhachHang.cs",
-              "RelativeDocumentMoniker": "QLSCLAPI\\Models\\KhachHang.cs",
-              "ToolTip": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\Models\\KhachHang.cs",
-              "RelativeToolTip": "QLSCLAPI\\Models\\KhachHang.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Title": "DatSanDTO.cs",
+              "DocumentMoniker": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Models\\DatSanDTO.cs",
+              "RelativeDocumentMoniker": "QLSCLAPI\\Models\\DatSanDTO.cs",
+              "ToolTip": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Models\\DatSanDTO.cs",
+              "RelativeToolTip": "QLSCLAPI\\Models\\DatSanDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T18:47:45.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-22T01:56:09.196Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
+              "Title": "GiaiDausController.cs",
+              "DocumentMoniker": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Controllers\\GiaiDausController.cs",
+              "RelativeDocumentMoniker": "QLSCLAPI\\Controllers\\GiaiDausController.cs",
+              "ToolTip": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Controllers\\GiaiDausController.cs",
+              "RelativeToolTip": "QLSCLAPI\\Controllers\\GiaiDausController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwBsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T02:15:19.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ChiTietGiaiDausController.cs",
+              "DocumentMoniker": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Controllers\\ChiTietGiaiDausController.cs",
+              "RelativeDocumentMoniker": "QLSCLAPI\\Controllers\\ChiTietGiaiDausController.cs",
+              "ToolTip": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Controllers\\ChiTietGiaiDausController.cs",
+              "RelativeToolTip": "QLSCLAPI\\Controllers\\ChiTietGiaiDausController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T02:17:10.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DoiThiDausController.cs",
+              "DocumentMoniker": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Controllers\\DoiThiDausController.cs",
+              "RelativeDocumentMoniker": "QLSCLAPI\\Controllers\\DoiThiDausController.cs",
+              "ToolTip": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Controllers\\DoiThiDausController.cs",
+              "RelativeToolTip": "QLSCLAPI\\Controllers\\DoiThiDausController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAkwFcAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T02:17:42.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HoaDonsController.cs",
+              "DocumentMoniker": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Controllers\\HoaDonsController.cs",
+              "RelativeDocumentMoniker": "QLSCLAPI\\Controllers\\HoaDonsController.cs",
+              "ToolTip": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Controllers\\HoaDonsController.cs",
+              "RelativeToolTip": "QLSCLAPI\\Controllers\\HoaDonsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T00:21:50.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "KhachHang.cs",
+              "DocumentMoniker": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Models\\KhachHang.cs",
+              "RelativeDocumentMoniker": "QLSCLAPI\\Models\\KhachHang.cs",
+              "ToolTip": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Models\\KhachHang.cs",
+              "RelativeToolTip": "QLSCLAPI\\Models\\KhachHang.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T18:47:45.248Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "LoginRequest.cs",
-              "DocumentMoniker": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\Models\\LoginRequest.cs",
+              "DocumentMoniker": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Models\\LoginRequest.cs",
               "RelativeDocumentMoniker": "QLSCLAPI\\Models\\LoginRequest.cs",
-              "ToolTip": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\Models\\LoginRequest.cs",
+              "ToolTip": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Models\\LoginRequest.cs",
               "RelativeToolTip": "QLSCLAPI\\Models\\LoginRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -171,130 +366,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "NguoiDungsController.cs",
-              "DocumentMoniker": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\Controllers\\NguoiDungsController.cs",
-              "RelativeDocumentMoniker": "QLSCLAPI\\Controllers\\NguoiDungsController.cs",
-              "ToolTip": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\Controllers\\NguoiDungsController.cs",
-              "RelativeToolTip": "QLSCLAPI\\Controllers\\NguoiDungsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T11:37:09.8Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 7,
               "Title": "NguoiDung.cs",
-              "DocumentMoniker": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\Models\\NguoiDung.cs",
+              "DocumentMoniker": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Models\\NguoiDung.cs",
               "RelativeDocumentMoniker": "QLSCLAPI\\Models\\NguoiDung.cs",
-              "ToolTip": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\Models\\NguoiDung.cs",
+              "ToolTip": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Models\\NguoiDung.cs",
               "RelativeToolTip": "QLSCLAPI\\Models\\NguoiDung.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAA1wBUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T11:25:29.063Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 20,
               "Title": "NhatKyHoatDong.cs",
-              "DocumentMoniker": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\Models\\NhatKyHoatDong.cs",
+              "DocumentMoniker": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Models\\NhatKyHoatDong.cs",
               "RelativeDocumentMoniker": "QLSCLAPI\\Models\\NhatKyHoatDong.cs",
-              "ToolTip": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\Models\\NhatKyHoatDong.cs",
+              "ToolTip": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Models\\NhatKyHoatDong.cs",
               "RelativeToolTip": "QLSCLAPI\\Models\\NhatKyHoatDong.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBMAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwBMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-17T11:25:25.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "PhienDangNhap.cs",
-              "DocumentMoniker": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\Models\\PhienDangNhap.cs",
+              "DocumentMoniker": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Models\\PhienDangNhap.cs",
               "RelativeDocumentMoniker": "QLSCLAPI\\Models\\PhienDangNhap.cs",
-              "ToolTip": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\Models\\PhienDangNhap.cs",
+              "ToolTip": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Models\\PhienDangNhap.cs",
               "RelativeToolTip": "QLSCLAPI\\Models\\PhienDangNhap.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAADwvxcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-17T09:58:11.534Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-17T09:58:11.534Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "DatSan.cs",
-              "DocumentMoniker": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\Models\\DatSan.cs",
+              "DocumentMoniker": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Models\\DatSan.cs",
               "RelativeDocumentMoniker": "QLSCLAPI\\Models\\DatSan.cs",
-              "ToolTip": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\Models\\DatSan.cs",
+              "ToolTip": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Models\\DatSan.cs",
               "RelativeToolTip": "QLSCLAPI\\Models\\DatSan.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T19:58:36.636Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "QuanLySanCauLongContext.cs",
-              "DocumentMoniker": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\Models\\QuanLySanCauLongContext.cs",
-              "RelativeDocumentMoniker": "QLSCLAPI\\Models\\QuanLySanCauLongContext.cs",
-              "ToolTip": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\Models\\QuanLySanCauLongContext.cs",
-              "RelativeToolTip": "QLSCLAPI\\Models\\QuanLySanCauLongContext.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAIwCUAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T17:55:51.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "DatSansController.cs",
-              "DocumentMoniker": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\Controllers\\DatSansController.cs",
+              "DocumentMoniker": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Controllers\\DatSansController.cs",
               "RelativeDocumentMoniker": "QLSCLAPI\\Controllers\\DatSansController.cs",
-              "ToolTip": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\Controllers\\DatSansController.cs",
+              "ToolTip": "D:\\Adroid\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI\\Controllers\\DatSansController.cs",
               "RelativeToolTip": "QLSCLAPI\\Controllers\\DatSansController.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAADwvxsAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAFwAAAAAAAAAAAAowG4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T17:53:28.404Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "QLSCLAPI.http",
-              "DocumentMoniker": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI.http",
-              "RelativeDocumentMoniker": "QLSCLAPI\\QLSCLAPI.http",
-              "ToolTip": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\QLSCLAPI.http",
-              "RelativeToolTip": "QLSCLAPI\\QLSCLAPI.http",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2025-05-16T17:43:20.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\Program.cs",
-              "RelativeDocumentMoniker": "QLSCLAPI\\Program.cs",
-              "ToolTip": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\Program.cs",
-              "RelativeToolTip": "QLSCLAPI\\Program.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T17:38:34.97Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "QLSCLAPI\\appsettings.json",
-              "ToolTip": "E:\\LapTrinhDiDong\\QLSCLAPI\\QLSCLAPI\\appsettings.json",
-              "RelativeToolTip": "QLSCLAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-16T17:36:29.85Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-16T17:53:28.404Z"
             }
           ]
         }

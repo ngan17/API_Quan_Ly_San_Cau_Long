@@ -91,8 +91,18 @@ namespace QLSCLAPI.Controllers
         // POST: api/DatSans
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<DatSan>> PostDatSan(DatSan datSan)
+        public async Task<ActionResult<DatSan>> PostDatSan(DatSanDTO dto)
         {
+            var datSan = new DatSan
+            {
+                MaKhachHang = dto.MaKhachHang,
+                MaSan = dto.MaSan,
+                NgayDat = dto.NgayDat,
+                GioBatDau = dto.GioBatDau,
+                ThoiLuong = dto.ThoiLuong,
+                TrangThai = dto.TrangThai
+            };
+
             _context.DatSans.Add(datSan);
             await _context.SaveChangesAsync();
 

@@ -15,7 +15,13 @@ public partial class QuanLySanCauLongContext : DbContext
     {
     }
 
+    public virtual DbSet<ChiTietGiaiDau> ChiTietGiaiDaus { get; set; }
+
     public virtual DbSet<DatSan> DatSans { get; set; }
+
+    public virtual DbSet<DoiThiDau> DoiThiDaus { get; set; }
+
+    public virtual DbSet<GiaiDau> GiaiDaus { get; set; }
 
     public virtual DbSet<HoaDon> HoaDons { get; set; }
 
@@ -33,12 +39,34 @@ public partial class QuanLySanCauLongContext : DbContext
 
     public virtual DbSet<San> Sans { get; set; }
 
+    public virtual DbSet<TranDau> TranDaus { get; set; }
+
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=172.20.10.10;Database=QuanLySanCauLong;User Id=sa;Password=123;TrustServerCertificate=True;");
+        => optionsBuilder.UseSqlServer("Server=192.168.1.3;Database=QuanLySanCauLong;User Id=sa;Password=123;TrustServerCertificate=True;Max Pool Size=200;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<ChiTietGiaiDau>(entity =>
+        {
+            entity.HasKey(e => new { e.MaGiaiDau, e.MaDoi }).HasName("PK__ChiTietG__285984315A00B5F0");
+
+            entity.ToTable("ChiTietGiaiDau");
+
+            entity.Property(e => e.KetQua).HasMaxLength(100);
+            entity.Property(e => e.VongDau).HasMaxLength(50);
+
+            entity.HasOne(d => d.MaDoiNavigation).WithMany(p => p.ChiTietGiaiDaus)
+                .HasForeignKey(d => d.MaDoi)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__ChiTietGi__MaDoi__07C12930");
+
+            entity.HasOne(d => d.MaGiaiDauNavigation).WithMany(p => p.ChiTietGiaiDaus)
+                .HasForeignKey(d => d.MaGiaiDau)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK__ChiTietGi__MaGia__06CD04F7");
+        });
+
         modelBuilder.Entity<DatSan>(entity =>
         {
             entity.HasKey(e => e.MaDatSan).HasName("PK__DatSan__747DC2D345CF3B49");
@@ -58,6 +86,32 @@ public partial class QuanLySanCauLongContext : DbContext
                 .HasForeignKey(d => d.MaSan)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK__DatSan__MaSan__4F7CD00D");
+        });
+
+        modelBuilder.Entity<DoiThiDau>(entity =>
+        {
+            entity.HasKey(e => e.MaDoi).HasName("PK__DoiThiDa__3D89F553BEE496E7");
+
+            entity.ToTable("DoiThiDau");
+
+            entity.Property(e => e.DaiDien).HasMaxLength(100);
+            entity.Property(e => e.SoDienThoai)
+                .HasMaxLength(15)
+                .IsUnicode(false);
+            entity.Property(e => e.TenDoi).HasMaxLength(100);
+        });
+
+        modelBuilder.Entity<GiaiDau>(entity =>
+        {
+            entity.HasKey(e => e.MaGiaiDau).HasName("PK__GiaiDau__0B811B64B1843FC0");
+
+            entity.ToTable("GiaiDau");
+
+            entity.Property(e => e.DiaDiem).HasMaxLength(100);
+            entity.Property(e => e.GiaiThuong).HasColumnType("money");
+            entity.Property(e => e.MoTa).HasMaxLength(255);
+            entity.Property(e => e.TenGiai).HasMaxLength(100);
+            entity.Property(e => e.TrangThai).HasMaxLength(50);
         });
 
         modelBuilder.Entity<HoaDon>(entity =>
@@ -197,6 +251,29 @@ public partial class QuanLySanCauLongContext : DbContext
             entity.Property(e => e.TinhTrang)
                 .HasMaxLength(20)
                 .HasDefaultValue("đang hoạt động");
+        });
+
+        modelBuilder.Entity<TranDau>(entity =>
+        {
+            entity.HasKey(e => e.MaTranDau).HasName("PK__TranDau__1B2FFCF3E38D1B14");
+
+            entity.ToTable("TranDau");
+
+            entity.Property(e => e.SanThiDau).HasMaxLength(100);
+            entity.Property(e => e.ThoiGian).HasColumnType("datetime");
+            entity.Property(e => e.TySo).HasMaxLength(10);
+
+            entity.HasOne(d => d.MaDoi1Navigation).WithMany(p => p.TranDauMaDoi1Navigations)
+                .HasForeignKey(d => d.MaDoi1)
+                .HasConstraintName("FK__TranDau__MaDoi1__0B91BA14");
+
+            entity.HasOne(d => d.MaDoi2Navigation).WithMany(p => p.TranDauMaDoi2Navigations)
+                .HasForeignKey(d => d.MaDoi2)
+                .HasConstraintName("FK__TranDau__MaDoi2__0C85DE4D");
+
+            entity.HasOne(d => d.MaGiaiDauNavigation).WithMany(p => p.TranDaus)
+                .HasForeignKey(d => d.MaGiaiDau)
+                .HasConstraintName("FK__TranDau__MaGiaiD__0A9D95DB");
         });
 
         OnModelCreatingPartial(modelBuilder);

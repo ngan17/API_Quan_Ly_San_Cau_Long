@@ -5,6 +5,191 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/ChiTietGiaiDaus": {
+      "get": {
+        "tags": [
+          "ChiTietGiaiDaus"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ChiTietGiaiDau"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ChiTietGiaiDau"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/ChiTietGiaiDau"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "ChiTietGiaiDaus"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChiTietGiaiDau"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChiTietGiaiDau"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChiTietGiaiDau"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ChiTietGiaiDau"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ChiTietGiaiDau"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ChiTietGiaiDau"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/ChiTietGiaiDaus/{id}": {
+      "get": {
+        "tags": [
+          "ChiTietGiaiDaus"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/ChiTietGiaiDau"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ChiTietGiaiDau"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ChiTietGiaiDau"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "ChiTietGiaiDaus"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChiTietGiaiDau"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChiTietGiaiDau"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChiTietGiaiDau"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "ChiTietGiaiDaus"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/DatSans/api/DatSans": {
       "get": {
         "tags": [
@@ -36,17 +221,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/DatSan"
+                "$ref": "#/components/schemas/DatSanDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/DatSan"
+                "$ref": "#/components/schemas/DatSanDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/DatSan"
+                "$ref": "#/components/schemas/DatSanDTO"
               }
             }
           }
@@ -157,6 +342,376 @@
       "delete": {
         "tags": [
           "DatSans"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DoiThiDaus": {
+      "get": {
+        "tags": [
+          "DoiThiDaus"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DoiThiDau"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DoiThiDau"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DoiThiDau"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "DoiThiDaus"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DoiThiDau"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DoiThiDau"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DoiThiDau"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DoiThiDau"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DoiThiDau"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DoiThiDau"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/DoiThiDaus/{id}": {
+      "get": {
+        "tags": [
+          "DoiThiDaus"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DoiThiDau"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DoiThiDau"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DoiThiDau"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "DoiThiDaus"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DoiThiDau"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DoiThiDau"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DoiThiDau"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "DoiThiDaus"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/GiaiDaus": {
+      "get": {
+        "tags": [
+          "GiaiDaus"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/GiaiDau"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/GiaiDau"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/GiaiDau"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "GiaiDaus"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GiaiDau"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GiaiDau"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GiaiDau"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/GiaiDau"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GiaiDau"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GiaiDau"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/GiaiDaus/{id}": {
+      "get": {
+        "tags": [
+          "GiaiDaus"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/GiaiDau"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GiaiDau"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/GiaiDau"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "GiaiDaus"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GiaiDau"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GiaiDau"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GiaiDau"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "GiaiDaus"
         ],
         "parameters": [
           {
@@ -395,6 +950,34 @@
   },
   "components": {
     "schemas": {
+      "ChiTietGiaiDau": {
+        "type": "object",
+        "properties": {
+          "maGiaiDau": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maDoi": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "vongDau": {
+            "type": "string",
+            "nullable": true
+          },
+          "ketQua": {
+            "type": "string",
+            "nullable": true
+          },
+          "maDoiNavigation": {
+            "$ref": "#/components/schemas/DoiThiDau"
+          },
+          "maGiaiDauNavigation": {
+            "$ref": "#/components/schemas/GiaiDau"
+          }
+        },
+        "additionalProperties": false
+      },
       "DatSan": {
         "type": "object",
         "properties": {
@@ -441,6 +1024,132 @@
           },
           "maSanNavigation": {
             "$ref": "#/components/schemas/San"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DatSanDTO": {
+        "type": "object",
+        "properties": {
+          "maKhachHang": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maSan": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ngayDat": {
+            "type": "string",
+            "format": "date"
+          },
+          "gioBatDau": {
+            "type": "string",
+            "format": "time"
+          },
+          "thoiLuong": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "trangThai": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DoiThiDau": {
+        "type": "object",
+        "properties": {
+          "maDoi": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenDoi": {
+            "type": "string",
+            "nullable": true
+          },
+          "daiDien": {
+            "type": "string",
+            "nullable": true
+          },
+          "soDienThoai": {
+            "type": "string",
+            "nullable": true
+          },
+          "chiTietGiaiDaus": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ChiTietGiaiDau"
+            },
+            "nullable": true
+          },
+          "tranDauMaDoi1Navigations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TranDau"
+            },
+            "nullable": true
+          },
+          "tranDauMaDoi2Navigations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TranDau"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GiaiDau": {
+        "type": "object",
+        "properties": {
+          "maGiaiDau": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "tenGiai": {
+            "type": "string",
+            "nullable": true
+          },
+          "moTa": {
+            "type": "string",
+            "nullable": true
+          },
+          "ngayBatDau": {
+            "type": "string",
+            "format": "date"
+          },
+          "ngayKetThuc": {
+            "type": "string",
+            "format": "date"
+          },
+          "diaDiem": {
+            "type": "string",
+            "nullable": true
+          },
+          "giaiThuong": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "trangThai": {
+            "type": "string",
+            "nullable": true
+          },
+          "chiTietGiaiDaus": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ChiTietGiaiDau"
+            },
+            "nullable": true
+          },
+          "tranDaus": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/TranDau"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -758,6 +1467,53 @@
               "$ref": "#/components/schemas/PhanHoi"
             },
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TranDau": {
+        "type": "object",
+        "properties": {
+          "maTranDau": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "maGiaiDau": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maDoi1": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "maDoi2": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "thoiGian": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "sanThiDau": {
+            "type": "string",
+            "nullable": true
+          },
+          "tySo": {
+            "type": "string",
+            "nullable": true
+          },
+          "maDoi1Navigation": {
+            "$ref": "#/components/schemas/DoiThiDau"
+          },
+          "maDoi2Navigation": {
+            "$ref": "#/components/schemas/DoiThiDau"
+          },
+          "maGiaiDauNavigation": {
+            "$ref": "#/components/schemas/GiaiDau"
           }
         },
         "additionalProperties": false
